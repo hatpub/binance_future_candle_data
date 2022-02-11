@@ -1,6 +1,7 @@
 import pymysql
 from datetime import datetime, timedelta
 from apscheduler.schedulers.blocking import BlockingScheduler
+from data_config import *
 
 def exec_cron():
 
